@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800;900&display=swap');
 :root{
     user-select: none;
     overflow-x: hidden;
+    font-family: 'Kanit','Source Serif Pro';
 }
 body{
     width: 100%;
     height: fit-content;
     margin: 0;
     z-index: 1;
+    font-family: 'Kanit','Source Serif Pro';
 }
 
 #circulos{
@@ -102,7 +105,6 @@ body{
     font-size: 40PX;
     text-align: center;
     margin: 5px;
-    font-family: 'Source Serif Pro';
     opacity: 0;
     transition: 1600ms;
 }
@@ -159,7 +161,6 @@ body{
 
 #descripcion__texto{
     width: 80%;
-    font-family:'Roboto';
     color: white;
 }
 #texto__titulo{
@@ -217,9 +218,8 @@ body{
 #boton-mostrar{
     padding: 15px;
     font-size: 40px;
-    font-family: 'Roboto';
     border-radius: 10px;
-    font-weight: 800;
+    font-weight: 700;
     transition: all 1000ms;
     color: white;
     background-color: rgba(1, 1, 1, .2);
@@ -247,7 +247,6 @@ body{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-    font-family: 'Roboto';
     width: 80%;
     margin: 0 auto;
     transition: all  500ms;
@@ -266,11 +265,13 @@ body{
     justify-self: center;
     align-self: center;
 }
-
 .img__tech,.img__auxiliar{
+    filter:drop-shadow(5px 5px 5px black);
+}
+.img__tech{
     width: 180px;
     height: 180px;
-    filter:drop-shadow(5px 5px 5px black);
+
     transition: all 700ms;
 }
 .img__tech:hover{
@@ -280,14 +281,12 @@ body{
 .img__auxiliar{
     width: 100px;
     height: 100px;
-    filter:drop-shadow(5px 5px 5px black);
 }
 
 .divAuxiliar{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    font-family: 'Roboto';
     color: white;
     width: 90%;
     height: 60vh;
@@ -322,7 +321,7 @@ body{
 }
 .texto__auxiliar{
     width: 50%;
-    margin: 0px 10px;
+    margin: 0px 40px;
     text-align: left;
 }
 .aux__botones{
@@ -348,18 +347,19 @@ body{
     color: white;
     background-color: black;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     transition:  all 1400ms;
 }
 #mis-proyectos{
+    padding-top: 150px;
+    padding-bottom: 150px;
     height: fit-content;
     background-image: linear-gradient(
 	0deg,
 	rgb(0,0,0,0.8),
 	rgb(0,0,0,0.8))
 	,url("img/fondoDescripcion.png");
-    font-family: 'Roboto';
     text-align: center;
     display: flex;
     align-items: center;
@@ -479,6 +479,16 @@ body{
 
     #mis-tecnologias-titulo{
         font-size: 45px;
+    }
+    .img__auxiliar{
+        width:250px;
+        height: 250px;
+    }
+    .texto__auxiliar{
+        font-size: 26px;
+    }
+    .boton__aux{
+        font-size: 20px;
     }
 }
 @media(min-width:1400px){
