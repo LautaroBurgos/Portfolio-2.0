@@ -125,11 +125,12 @@ body{
     color: white;
     border-radius: 10px;
     font-size: 15px;
-    height: 30px;
+    height: fit-content;
     font-weight: 600;
     background-color: rgba(22, 22, 22, 0.1);
     opacity: 0;
     transition: 1400ms;
+    padding: 5px;
 }
 .boton:hover{
     border-color: white;
@@ -141,7 +142,7 @@ body{
 }
 #descripcion{
     width: 100%;
-    height: 80vh;
+    height: 65vh;
     background-color: rgb(30, 27, 27);
     display: flex;
     flex-direction: column;
@@ -152,6 +153,8 @@ body{
 	rgb(0,0,0,0.8),
 	rgb(0,0,0,0.7))
 	,url("img/fondoDescripcion.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #descripcion__texto{
@@ -160,6 +163,7 @@ body{
     color: white;
 }
 #texto__titulo{
+    text-align: center;
     font-size: 35px;
     margin: 0;
 }
@@ -183,12 +187,18 @@ body{
 #section-tecnologias{
     width: 100%;
     height: fit-content;
+    transition: all 600ms;
 }
 #mis-tecnologias{
     margin-top: 110px;
     width: 100%;
     height: 500px;
+    padding-bottom: 60px;
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     top: -1000000px;
     transition: all 600ms;
@@ -224,12 +234,13 @@ body{
     margin-top: 50px;
     text-align: center;
     font-size: 20px;
-    grid-gap:20px;
     height: fit-content;
-    display: grid;
+    width: 70%;
+    display: flex;
     justify-content: center;
-    grid-template-columns: repeat(1,auto);
-    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+    flex-wrap: wrap;
+
 
 }
 #mis-tecnologias-titulo{
@@ -252,6 +263,8 @@ body{
     align-items: center;
     transition: 700ms;
     opacity: 0;
+    justify-self: center;
+    align-self: center;
 }
 
 .img__tech,.img__auxiliar{
@@ -434,7 +447,27 @@ body{
         grid-template-columns: repeat(2,auto);
     }
 }
-
+@media (min-width:1000px){
+    #descripcion{
+        flex-direction: row;
+    }
+    #descripcion__texto{
+        width: 40%;
+    }
+    #texto__titulo{
+        text-align: left;
+        font-size: 50px;
+    }
+    #texto__parrafo{
+        font-size: 25px;
+    }
+    #hero__nombre,#hero__titulo{
+        font-size: 60PX;
+    }
+    .boton{
+        font-size: 20px;
+    }
+}
 @media (min-width:1200px) {
     #tecnologias{
         grid-template-columns: repeat(3,auto);

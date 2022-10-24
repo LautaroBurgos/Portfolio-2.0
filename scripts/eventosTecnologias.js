@@ -74,12 +74,14 @@ function agregarEventoMostrarDivTech(){
 
         let misTecnologias=document.getElementById("mis-tecnologias");
         let titulo=document.getElementById("mis-tecnologias-titulo");
+
         setTimeout(function(){
             titulo.style.opacity="1";
         },500);
+        misTecnologias.style.height="2000px";
         setTimeout(function(){
-            misTecnologias.style.height="fit-content";
             misTecnologias.style.top="unset";
+            misTecnologias.style.height="fit-content";
         },600);
         setTimeout(function(){
             let divsInvisibles=document.getElementsByClassName("divTecnologia");
@@ -87,7 +89,7 @@ function agregarEventoMostrarDivTech(){
             for(let div of divsInvisibles ){
                 setTimeout(function(){
                     div.style.opacity="1";
-                },800*i);
+                },750*i);
                 i++;
             }
         },600);
