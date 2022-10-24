@@ -1,0 +1,50 @@
+[
+    {
+        "nombre":"C",
+        "urlImg":"img/c.png",
+        "texto":"Utilicé el lenguaje C en la facultad,con este lenguaje nos introdujeron a la programación funcional y la programación estructurada.",
+        "urlRepo":"https://github.com/LautaroBurgos/TPS-Algo1"
+    },
+    {
+        "nombre":"C++",
+        "urlImg":"img/c++.png",
+        "texto":"Utilicé C++ en la facultad,con este lenguaje nos presentaron la programación orientada a objetos,TDA´S, listas,arboles y tablas hush.",
+        "urlRepo":"https://github.com/LautaroBurgos/Batalla-Campal---Algo-2"
+    },
+    {
+        "nombre":"HTML",
+        "urlImg":"img/html.png",
+        "texto":"Aprendi HTML5 de forma autodidacta para introducirme en el desarrollo web, luego de mucha práctica , realice un curso sobre HTML y CSS con el fin de afianzar mis conocimientos.",
+        "urlRepo":"https://github.com/LautaroBurgos/Proyecto-integrador-Fundamentos-Web-con-HTML5"
+    },
+    {
+        "nombre":"CSS",
+        "urlImg":"img/css.png",
+        "texto":"Aprendí CSS3 de forma autodidacta luego de aprender HTML, luego de mucha práctica , realice un curso sobre HTML y CSS con el fin de afianzar mis conocimientos.",
+        "urlRepo":"https://github.com/LautaroBurgos/Proyecto-integrador-Fundamentos-Web-con-HTML5"
+    },
+    {
+        "nombre":"JavaScript",
+        "urlImg":"img/javascript.png",
+        "texto":"Aprendí JavaScript de forma autodidacta, que luego decidí complementar con un curso, con el fin de profundizar en este lenguaje.",
+        "urlRepo":"https://github.com/LautaroBurgos/Proyecto-Final-Javascript"
+    },
+    {
+        "nombre":"Python",
+        "urlImg":"img/python.png",
+        "texto":"Aprendí Python de forma autodidacta, con el fin de aprender sobre los lenguajes de tipado dinámico.",
+        "urlRepo":"https://github.com/LautaroBurgos/Python"
+    },
+    {
+        "nombre":"MySQL",
+        "urlImg":"img/mysql.png",
+        "texto":"Aprendí MySQL a través de cursos en el tema, los fundamentos sobre CRUD y sobre bases de datos relacionales en general.",
+        "urlRepo":"#"
+    },
+    {
+        "nombre":"Java",
+        "urlImg":"img/java.png",
+        "texto":"Aprendí Java durante la capacitación para el puesto de Java Developer para la empresa NTT DATA. Actualmente es el lenguaje que uso en mi entorno laboral.",
+        "urlRepo":"#"
+    }
+]
