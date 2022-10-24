@@ -8,7 +8,6 @@ function agregarEventoHero(){
         titulo.style.opacity="1";
     },1500);
     let botones=document.getElementsByClassName("boton");
-    console.log(botones);
     setTimeout(function(){
         for(let boton of botones){
             boton.style.opacity="1";
