@@ -467,22 +467,25 @@ body{
     .boton{
         font-size: 20px;
     }
+    #proyectos-titulo{
+        font-size: 40px;
+    }
+    #proyectos-texto{
+        font-size: 25px;
+    }
+
 }
 @media (min-width:1200px) {
-    #tecnologias{
-        grid-template-columns: repeat(3,auto);
-    }
+
     #mis-tecnologias-titulo{
-        font-size: 50px;
+        font-size: 45px;
     }
 }
 @media(min-width:1400px){
     .circulo{
         animation: circulo1400 60s infinite alternate;
     }
-}
-@media (min-width:1600px) {
-    #tecnologias{
-        grid-template-columns: repeat(3,auto);
+    #div-proyectos{
+        grid-template-columns: repeat(4,auto);
     }
 }
